@@ -20,17 +20,17 @@ En resumen realicé:
 <a href="https://www.figma.com/file/pLWm5PdPQ0RwnNUNT04XbL/Prueba-T%C3%A9cnica-Atomik?node-id=11%3A43" target="_blank">https://www.figma.com/file/pLWm5PdPQ0RwnNUNT04XbL/Prueba-T%C3%A9cnica-Atomik?node-id=11%3A43</a>
 
 ## Proyecto HTML, CSS, Javascript
-1. Realicé un diseño con animaciones y efectos del mismo tipo que las web del Grupo MContigo. El código puede verlo en este repositorio.
+1. El proyecto contiene algunos efectos parecidos a las web que nos brindaron del Grupo MContigo. El código puede verlo en este repositorio.
 El proyecto funcionando lo puede ver en este enlace: 
 <a href="https://gianolortiga.com/atomik" target="_blank">https://gianolortiga.com/atomik/</a>
 
 ## BONUS: React JS
-1. El proyecto lo he trabajo en directo en la web de https://codesandbox.io/
+1. El proyecto lo he trabajo en directo en la web de Codesandbox.
 Puede ver el código y el proyecto corriendo en este enlace:
 <a href="https://codesandbox.io/s/dark-fast-vcyvs5?file=/src/App.js" target="_blank">https://codesandbox.io/s/dark-fast-vcyvs5?file=/src/App.js</a>
 
 ## MI EXTRA: Aplicación Android.
-1. Me gusta siempre dar algo más de valor, por ello deseo brindarles un archivo APK, la que se puede instalar en Dispositivos Android.
+1. Me gusta siempre dar algo más, por ello deseo brindarles un archivo APK, para Dispositivos Android.
 Puede descargarlo en el siguiente enlace:
 <a href="https://gianolortiga.com/atomik/AtomikApp.apk" target="_blank">https://gianolortiga.com/atomik/AtomikApp.apk</a>
 
