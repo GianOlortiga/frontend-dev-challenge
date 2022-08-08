@@ -1,6 +1,6 @@
 <p align="center">
   <a href='https://gianolortiga.com' target="_blank">
-    <img src="https://gianolortiga.com/img/logo.png" width="300" />
+    <img src="https://gianolortiga.com/img/logo.png" width="80" />
   </a>
 </p>
 <h1>Gian Olórtiga</h1>
