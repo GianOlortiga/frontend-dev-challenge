@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'"/>
+    <title>Mejor con Salud | Revista sobre buenos hábitos y cuidado para tú salud</title>
+</head>
+<body>
+    <header>
+        <div class="container d-flex ai-center">
+            <div class="nav-icon">
+                <button id="navHamburger" class="nav-icon__button nav-icon--toggle">
+                    <span class="nav-icon__line"></span>
+                    <span class="nav-icon__line"></span>
+                    <span class="nav-icon__line"></span>
+                </button>
+            </div>
+            <figure class="logo-area d-flex">
+                <a href="index.html"><img src="./images/logo.svg" alt="MejorConSalud"></a>
+            </figure>
+            <div class="nav-helper">
+                <button id="navSearch" class="nav-icon__button nav-helper--search">
+                    <img src="./images/search-icon.svg" alt="buscar">
+                </button>
+            </div>
+        </div>
+    </header>
+    <nav id="navigation" class="navigation">
+        <div class="navigation__content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="navigation__search">
+                            <form action="">
+                                <input type="text" placeholder="Busca artículos, noticias, enfermedades, etc…">
+                                <button>
+                                    <img src="./images/search-icon-white.svg" alt="buscar">
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 navigation__right">
+                        <div class="navigation__block">
+                            <span><a href="#">Salud</a></span>
+                            <ul>
+                                <li><a href="#">Primeros auxilios</a></li>
+                                <li><a href="#">Enfermedades</a></li>
+                                <li><a href="#">Medicamentos</a></li>
+                                <li><a href="#">Tratamientos Médicos</a></li>
+                                <li><a href="#">Cuerpo Humano</a></li>
+                                <li><a href="#">Anatomía y Fiosiología</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="navigation__block">
+                            <span><a href="#">Salud</a></span>
+                            <ul>
+                                <li><a href="#">Primeros auxilios</a></li>
+                                <li><a href="#">Enfermedades</a></li>
+                                <li><a href="#">Medicamentos</a></li>
+                                <li><a href="#">Tratamientos Médicos</a></li>
+                                <li><a href="#">Cuerpo Humano</a></li>
+                                <li><a href="#">Anatomía y Fiosiología</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main id="main">
+        <section class="hero">
+            <section class="hero__slider">
+                <div class="hero__slider__container">
+                    <img src="./images/leftarrow.svg" class="hero__slider__arrow" id="before">
+    
+                    <section class="hero__slider__body hero__slider__body--show" data-id="1" style="background-image: url(./images/slider.jpg);">
+                        <div class="hero__slider__texts">
+                            <h1 class="hero__slider__title">Su viaje de <span>Salud emocional</span> <br> empieza aquí</h1>
+                            <h3 class="hero__slider__subtitle">Conoce nuestros <br> profesionales con licencia</h3>
+                            <p class="hero__slider__content">todos se someten a un proceso seguro de verificación y acreditación, además de adherirse a estrictos códigos de ética y confidencialidad</p>
+                        </div>
+                    </section>
+    
+                    <section class="hero__slider__body" data-id="2" style="background-image: url(./images/slider2.jpg);">
+                        <div class="hero__slider__texts">
+                            <h1 class="hero__slider__title">Su viaje de <span>Salud emocional</span> <br> empieza aquí 2</h1>
+                            <h3 class="hero__slider__subtitle">Conoce nuestros <br> profesionales con licencia 2</h3>
+                            <p class="hero__slider__content">todos se someten a un proceso seguro de verificación y acreditación, además de adherirse a estrictos códigos de ética y confidencialidad</p>
+                        </div>
+                    </section>
+    
+                    <section class="hero__slider__body" data-id="3" style="background-image: url(./images/slider3.jpg);">
+                        <div class="hero__slider__texts">
+                            <h1 class="hero__slider__title">Su viaje de <span>Salud emocional</span> <br> empieza aquí 3</h1>
+                            <h3 class="hero__slider__subtitle">Conoce nuestros <br> profesionales con licencia 3</h3>
+                            <p class="hero__slider__content">todos se someten a un proceso seguro de verificación y acreditación, además de adherirse a estrictos códigos de ética y confidencialidad</p>
+                        </div>
+                    </section>
+    
+    
+                    <img src="./images/rightarrow.svg" class="hero__slider__arrow" id="next">
+                </div>
+            </section>
+        </section>
+        <section id="posts">
+            <div class="container">
+                <div class="posts__carrousel">
+                    <div class="post__card post__card--min">
+                        <a href="#">
+                            <div class="post__card__thumb">
+                                <figure>
+                                    <img src="./images/carrousel-posts.webp">
+                                </figure>
+                            </div>
+                            <div class="post__card__content">
+                                <div class="post__card__header">
+                                    <span class="post__card__category">Consejos para el hogar</span>
+                                    <span class="post__card__title">Muebles de melamina: características, ventajas y desventajas</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="post__card post__card--min">
+                        <a href="#">
+                            <div class="post__card__thumb">
+                                <figure>
+                                    <img src="./images/carrousel-posts2.webp">
+                                </figure>
+                            </div>
+                            <div class="post__card__content">
+                                <div class="post__card__header">
+                                    <span class="post__card__category">Niños</span>
+                                    <span class="post__card__title">Atletismo para niños: todos los beneficios y consejos útiles</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="post__card post__card--min">
+                        <a href="#">
+                            <div class="post__card__thumb">
+                                <figure>
+                                    <img src="./images/carrousel-posts3.webp">
+                                </figure>
+                            </div>
+                            <div class="post__card__content">
+                                <div class="post__card__header">
+                                    <span class="post__card__category">Decoración</span>
+                                    <span class="post__card__title">Estampados florales: claves para aprovechar esta tendencia de decoración</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="post__card post__card--min">
+                        <a href="#">
+                            <div class="post__card__thumb">
+                                <figure>
+                                    <img src="./images/carrousel-posts4.webp">
+                                </figure>
+                            </div>
+                            <div class="post__card__content">
+                                <div class="post__card__header">
+                                    <span class="post__card__category">Enfermedades</span>
+                                    <span class="post__card__title">La enfermedad que padece Sebastien Haller del Borussia Dortmund</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="posts-two">
+            <div class="container">
+                <div class="row post-two__column">
+                    <div class="col-lg-6">
+                        <div class="post__card post__card--big">
+                            <a href="#">
+                                <div class="post__card__thumb">
+                                    <figure>
+                                        <img src="./images/posts-two-column.webp">
+                                    </figure>
+                                </div>
+                                <div class="post__card__content">
+                                    <div class="post__card__header">
+                                        <span class="post__card__title">¿El cacao ayuda a reducir el colesterol? Esto dice l...</span>
+                                    </div>
+                                    <div class="post__card__body">
+                                        <p>El cacao es uno de los alimentos que podría ayudar a redu...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="post__card post__card--horizontal">
+                            <a href="#">
+                                <div class="post__card__thumb">
+                                    <figure>
+                                        <img src="./images/posts-two-column2.webp">
+                                    </figure>
+                                </div>
+                                <div class="post__card__content">
+                                    <div class="post__card__header">
+                                        <span class="post__card__title">Hígado de res: nutrición, beneficios y preparación</span>
+                                    </div>
+                                    <div class="post__card__body">
+                                        <p>Hígado de res: nutrición, beneficios y preparación</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="post__card post__card--horizontal">
+                            <a href="#">
+                                <div class="post__card__thumb">
+                                    <figure>
+                                        <img src="./images/posts-two-column3.webp">
+                                    </figure>
+                                </div>
+                                <div class="post__card__content">
+                                    <div class="post__card__header">
+                                        <span class="post__card__title">Casu marzu: ¿por qué se considera peligroso?</span>
+                                    </div>
+                                    <div class="post__card__body">
+                                        <p>El casu marzu es un queso que proviene de una isla italia...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="post__card post__card--horizontal">
+                            <a href="#">
+                                <div class="post__card__thumb">
+                                    <figure>
+                                        <img src="./images/posts-two-column4.webp">
+                                    </figure>
+                                </div>
+                                <div class="post__card__content">
+                                    <div class="post__card__header">
+                                        <span class="post__card__title">Técnica de reestructuración cognitiva: ¿cuándo y cómo se usa?...</span>
+                                    </div>
+                                    <div class="post__card__body">
+                                        <p>El cacao es uno de los alimentos que podría ayudar a redu...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                 
+                 </div>
+            </div>
+        </section>
+        <hr>
+        <section id="posts-relative">
+            <div class="container">
+                <div class="post-relative">
+                    <h2 class="post-divisor-title">Quizás te podría interesar</h2>
+                    <div class="post-relative__list">
+                        <div class="post__card post__card--relative">
+                            <a href="#">
+                                <div class="post__card__thumb">
+                                    <figure>
+                                        <img src="./images/posts-relatives.webp">
+                                    </figure>
+                                </div>
+                                <div class="post__card__content">
+                                    <div class="post__card__header">
+                                        <span class="post__card__category">Embarazo</span>
+                                        <span class="post__card__title">Embarazo sin síntomas: todo lo que debes saber</span>
+                                    </div>
+                                    <div class="post__card__body">
+                                        <p>Algunas mujeres tienen un embarazo sin síntomas, por extraño que esto parezca. Hay muchas razones por las que ocurre y…</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="post__card post__card--relative">
+                            <a href="#">
+                                <div class="post__card__thumb">
+                                    <figure>
+                                        <img src="./images/posts-relatives2.webp">
+                                    </figure>
+                                </div>
+                                <div class="post__card__content">
+                                    <div class="post__card__header">
+                                        <span class="post__card__category">Noticias</span>
+                                        <span class="post__card__title">La exigente dieta y entrenamiento de Álex González para mantener unos abdominales de acero</span>
+                                    </div>
+                                    <div class="post__card__body">
+                                        <p>Los abdominales que muestra Álex González en sus últimos proyectos actorales demuestran que después de los 40 años es posible…</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="post__card post__card--relative">
+                            <a href="#">
+                                <div class="post__card__thumb">
+                                    <figure>
+                                        <img src="./images/posts-relatives3.webp">
+                                    </figure>
+                                </div>
+                                <div class="post__card__content">
+                                    <div class="post__card__header">
+                                        <span class="post__card__category">Nutrición</span>
+                                        <span class="post__card__title">Consumir cacahuetes con piel: todo lo que debes saber</span>
+                                    </div>
+                                    <div class="post__card__body">
+                                        <p>El cacahuete o maní es de los snacks más apetecibles y, por ello, se han introducido una gran diversidad de…</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="questions">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="questions">
+                            <h2 class="post-divisor-title">Preguntas Frecuentes</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, porro doloribus neque perspiciatis sapiente fuga.</p>
+                            <div class="questions__box">
+                                <section class="questions__container">
+                                    <article class="questions__padding">
+                                        <div class="questions__answer">
+                                            <h3 class="questions__title">¿Cuáles son los pasos para tomar una decisión?
+                                                <span class="questions__arrow">
+                                                    <img src="./images/arrow.svg" class="questions__img">
+                                                </span>
+                                            </h3>
+                    
+                                            <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+                                                facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
+                                                eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
+                                                amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
+                                                nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
+                                                quam atque?</p>
+                                        </div>
+                                    </article>
+                    
+                                    <article class="questions__padding">
+                                        <div class="questions__answer">
+                                            <h3 class="questions__title">¿Cuáles son los pasos para tomar una decisión?
+                                                <span class="questions__arrow">
+                                                    <img src="./images/arrow.svg" class="questions__img">
+                                                </span>
+                                            </h3>
+                    
+                                            <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+                                                facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
+                                                eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
+                                                amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
+                                                nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
+                                                quam atque?</p>
+                                        </div>
+                                    </article>
+                    
+                                    <article class="questions__padding">
+                                        <div class="questions__answer">
+                                            <h3 class="questions__title">¿Cuáles son los pasos para tomar una decisión?
+                                                <span class="questions__arrow">
+                                                    <img src="./images/arrow.svg" class="questions__img">
+                                                </span>
+                                            </h3>
+                    
+                                            <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+                                                facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
+                                                eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
+                                                amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
+                                                nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
+                                                quam atque?</p>
+                                        </div>
+                                    </article>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="testimony">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <section class="testimony">
+                            <div class="testimony__container">
+                                <img src="./images/leftarrowt.svg" class="testimony__arrow" id="beforeTestimonies">
+                                <section class="testimony__body testimony__body--show" data-id="1">
+                                    <figure>
+                                        <img src="./images/bloquote.svg" alt="">
+                                    </figure>
+                                    <div class="testimony__texts">
+                                        <p class="testimony__review">Me gustaría agradecer al sitio, me ayudó de una manera inimaginable, el psicólogo fue sumamente servicial y acogedor conmigo y me siento mejor conmigo mismo.</p>
+                                        <h4 class="testimony__name">María Montessori</h4>
+                                    </div>
+                                </section>
+                                <section class="testimony__body" data-id="2">
+                                    <figure>
+                                        <img src="./images/bloquote.svg" alt="">
+                                    </figure>
+                                    <div class="testimony__texts">
+                                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                                            esse, asperiores eaque totam nulla repudiandae quasi, deserunt culpa exercitationem
+                                            blanditiis laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                                        <h4 class="testimony__name">Gian Olórtiga</h4>
+                                    </div>
+                                </section>
+                                <img src="./images/rightarrowt.svg" class="testimony__arrow" id="nextTestimonies">
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div id="goTop">
+		<a href="#main"><img src="./images/arriba.png"></a>
+	</div>
+    <div class="suscribe" title="Lo nuevo">
+		<img src="./images/regalo.png" class="action-y">
+	</div>
+    <section id="suscription" class="hidden-info hidden-y">
+		<div class="container">
+            <div class="row suscription">
+                <div class="col-lg-12">
+                    <form class="row form" id="form" action="" method="POST">
+                        <div class="col-lg-3 col-md-4">
+                            <figure class="suscription__img">
+                                <img src="./images/carta.png" class="img-responsive">
+                            </figure>
+                        </div>
+                        <div class="col-lg-6 col-md-5">
+                            <h1>¿Quieres estar al tanto de nuestras ofertas?</h1>
+                            <p>Suscríbete con tu dirección de correo electrónico y disfruta de los mejores beneficios y descuentos.</p>
+                            <div class="suscription__forms">
+                                <input type="email" id="email" name="suscriptor" placeholder="Correo electrónico">
+                            </div>
+                            <div class="suscription__res"></div>
+                            <span>Al enviar tus datos, estarás aceptando nuestras  <a href="#"> políticas de privacidad</a></span>
+                        </div>
+                        <div class="col-lg-3 col-md-3">
+                            <div class="suscription__abtn">
+                                <input type="submit" value="Suscribirme" class="send">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+		</div>
+		<button class="suscription__btnclose" title="Cerrar">
+			<span class="suscription__iconbar"></span>
+			<span class="suscription__iconbar"></span>
+		</button>
+	</section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <figure class="footer__logo">
+                        <img src="./images/logo__mcontigo-group.png" alt="">
+                    </figure>
+                </div>
+                <div class="col-lg-8">
+                    <div class="footer__copyright">
+                        <p><strong>Mejor con Salud</strong> Revista sobre buenos hábitos y cuidados para tu salud<br>© 2012 – 2022 . Todos los derechos reservados.<br><br>Los contenidos de esta publicación se redactan solo con fines informativos. En ningún momento pueden servir para facilitar diagnósticos o sustituir la labor de un profesional. Le recomendamos que contacte con su especialista de confianza.</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer__legal">
+                        <ul class="footer__legal__links">
+                            <li>
+                                <a href="#" title="Política de privacidad">Política de privacidad</a>
+                            </li>
+                            <li>
+                                <a href="#" title="Términos y condiciones de uso">Términos y condiciones de uso</a>
+                            </li>
+                            <li>
+                                <a href="#" title="Política de cookies">Política de cookies</a>
+                            </li>
+                            <li>
+                                <a href="#" title="Política de privacidad">Quienes somos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/scripts.js"></script>
+</body>
+</html>
