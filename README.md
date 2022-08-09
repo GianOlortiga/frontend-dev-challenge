@@ -5,6 +5,10 @@
 </p>
 <br />
 
+## Importante:
+El proyecto está en la rama Master de este repositorio. Link a la rama:
+<a href="https://github.com/GianOlortiga/frontend-dev-challenge/tree/master">https://github.com/GianOlortiga/frontend-dev-challenge/tree/master</a>
+
 ## Descripción
 **Frontend DEV Challenge** es una prueba de admisión para desarrolladores en HTML, CSS, JavaScript.
 
